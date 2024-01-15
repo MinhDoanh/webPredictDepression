@@ -78,8 +78,8 @@ select {
     font-size: 17px;
     font-family: Raleway;
     border: 1px solid #aaaaaa;
-    border-radius: 10px;
-    -webkit-appearance: none;
+    border-radius: 15px;
+    /* -webkit-appearance: none; */
     text-align: center;
 }
 

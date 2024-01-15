@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Survey Form</title>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body className='snippet-body'>
+    <div class="container mt-5" style="height: 100%;">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-12">
+                <form id="regForm">
+                    <h1 id="register">Survey Form</h1>
+                    <div class="all-steps" id="all-steps">
+                        <span class="step"><b>1</b></span>
+                        <span class="step"><b>2</b></span>
+                        <span class="step"><b>3</b></span>
+                        <span class="step"><b>4</b></span>
+                        <span class="step"><b>5</b></span>
+                        <span class="step"><b>6</b></span>
+                        <span class="step"><b>7</b></span>
+                        <span class="step"><b>8</b></span>
+                        <span class="step"><b>9</b></span>
+                        <span class="step"><b>10</b></span>
+                        <span class="step"><b>11</b></span>
+                        <span class="step"><b>12</b></span>
+                        <span class="step"><b>13</b></span>
+                        <span class="step"><b>14</b></span>
+                        <span class="step"><b>15</b></span>
+                        <span class="step"><b>16</b></span>
+                        <span class="step"><b>17</b></span>
+                        <span class="step"><b>18</b></span>
+                        <span class="step"><b>19</b></span>
+                        <span class="step"><b>20</b></span>
+                        <span class="step"><b>21</b></span>
+                    </div>
+
+                    <div class="tab">
+                        <h6>How old are you?</h6>
+                        <p>
+                            <select name="age" id="age" required>
+                                <option value="">Choose</option>
+                                <option value="Under 18">Under 18</option>
+                                <option value="18-24">18-24</option>
+                                <option value="25-34">25-34</option>
+                                <option value="35-44">35-44</option>
+                                <option value="45-54">45-54</option>
+                                <option value="55-64">55-64</option>
+                                <option value="65 or older">65 or older</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>How many hours a week do you spend studying?</h6>
+                        <p>
+                            <select name="stud_hr" id="stud_hr" required>
+                                <option value="">Choose</option>
+                                <option value="Less than 5 hours">Less than 5 hours</option>
+                                <option value="5-10 hours">5-10 hours</option>
+                                <option value="10-20 hours">10-20 hours</option>
+                                <option value="More than 20 hours">More than 20 hours</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>Are you currently employed?</h6>
+                        <p>
+                            <select name="employed" id="employed" required>
+                                <option value="">Choose</option>
+                                <option value="Employed, full time">Employed, full time</option>
+                                <option value="Employed, part time">Employed, part time</option>
+                                <option value="Not employed">Not employed</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>Do you have any physical health issues or a disability?</h6>
+                        <p>
+                            <select name="h_disab" id="h_disab" required>
+                                <option value="">Choose</option>
+                                <option value="Yes">Yes</option>
+                                <option value="Prefer not to say">Prefer not to say</option>
+                                <option value="No">No</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>Have you been previously diagnosed with a mental health condition?</h6>
+                        <p>
+                            <select name="ment_cond" id="ment_cond" required>
+                                <option value="">Choose</option>
+                                <option value="Yes">Yes</option>
+                                <option value="Prefer not to say">Prefer not to say</option>
+                                <option value="No">No</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>How much time a day do you spend on social media?</h6>
+                        <p>
+                            <select name="social_hr" id="social_hr" required>
+                                <option value="">Choose</option>
+                                <option value="1-2 hours">1-2 hours</option>
+                                <option value="2-4 hours">2-4 hours</option>
+                                <option value="More than 5 hours">More than 5 hours</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>How many hours a week do you take in health/wellbeing activities?</h6>
+                        <p>
+                            <select name="fit_hr" id="fit_hr" required>
+                                <option value="">Choose</option>
+                                <option value="1-2 hours">1-2 hours</option>
+                                <option value="3-4 hours">3-4 hours</option>
+                                <option value="More than 5 hours">More than 5 hours</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>How often do you find it hard to wind down?</h6>
+                        <p>
+                            <select name="wind" id="wind" required>
+                                <option value="">Choose</option>
+                                <option value="Never">Never</option>
+                                <option value="Rarely">Rarely</option>
+                                <option value="Sometimes">Sometimes</option>
+                                <option value="Often">Often</option>
+                                <option value="Always">Always</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div class="tab">
+                        <h6>How often do you experience dryness of my mouth?</h6>
+                        <p>
+                            <select name="dry_mouth" id="dry_mouth" required>
+                                <option value="">Choose</option>
+                                <option value="Never">Never</option>
+                                <option value="Rarely">Rarely</option>
+                                <option value="Sometimes">Sometimes</option>
+                                <option value="Often">Often</option>
+                                <option value="Always">Always</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>How often do you struggle to experience feeling positive?</h6>
+                        <p>
+                            <select name="positive" id="positive" required>
+                                <option value="">Choose</option>
+                                <option value="Never">Never</option>
+                                <option value="Rarely">Rarely</option>
+                                <option value="Sometimes">Sometimes</option>
+                                <option value="Often">Often</option>
+                                <option value="Always">Always</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        
+                        <h6>Do you experience breathing difficulties?</h6>
+                        <p>
+                            <select name="breath_diff" id="breath_diff" required>
+                                <option value="">Choose</option>
+                                <option value="No">No</option>
+                                <option value="Yes">Yes</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>Do you have difficulties working up the initiative to do things?</h6>
+                        <p>
+                            <select name="initiate" id="initiate" required>
+                                <option value="">Choose</option>
+                                <option value="No">No</option>
+                                <option value="Yes">Yes</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>Do you experience trembling?</h6>
+                        <p>
+                            <select name="tremb" id="tremb" required>
+                                <option value="">Choose</option>
+                                <option value="No">No</option>
+                                <option value="Yes">Yes</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>Do you find yourself worrying about situations in which you might panic and make a fool of
+                            yourself?</h6>
+                        <p>
+                            <select name="worry" id="worry" required>
+                                <option value="">Choose</option>
+                                <option value="Never">Never</option>
+                                <option value="Rarely">Rarely</option>
+                                <option value="Sometimes">Sometimes</option>
+                                <option value="Often">Often</option>
+                                <option value="Always">Always</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>Do you find yourself feeling that you have nothing to look forward to?</h6>
+                        <p>
+                            <select name="look_fwd" id="look_fwd" required>
+                                <option value="">Choose</option>
+                                <option value="Never">Never</option>
+                                <option value="Rarely">Rarely</option>
+                                <option value="Sometimes">Sometimes</option>
+                                <option value="Often">Often</option>
+                                <option value="Always">Always</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>Do you find yourself feeling down-hearted?</h6>
+                        <p>
+                            <select name="down" id="down" required>
+                                <option value="">Choose</option>
+                                <option value="Never">Never</option>
+                                <option value="Rarely">Rarely</option>
+                                <option value="Sometimes">Sometimes</option>
+                                <option value="Often">Often</option>
+                                <option value="Always">Always</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>Do you find yourself unable to become enthusiastic about anything?</h6>
+                        <p>
+                            <select name="enthus" id="enthus" required>
+                                <option value="">Choose</option>
+                                <option value="Never">Never</option>
+                                <option value="Rarely">Rarely</option>
+                                <option value="Sometimes">Sometimes</option>
+                                <option value="Often">Often</option>
+                                <option value="Always">Always</option>
+                            </select>
+                        </p>
+                    </div>
+
+                    <div class="tab">
+                        <h6>Do you find yourself feeling that life can be meaningless?</h6>
+                        <p>
+                            <select name="life_mean" id="life_mean" required>
+                                <option value="">Choose</option>
+                                <option value="Never">Never</option>
+                                <option value="Rarely">Rarely</option>
+                                <option value="Sometimes">Sometimes</option>
+                                <option value="Often">Often</option>
+                                <option value="Always">Always</option>
+                            </select>
+                        </p>
+                    </div>
+            </div>
+
+
+            <div class="thanks-message text-center" id="text-message"> <img src="./img/dautich.png" width="100"
+                    class="mb-4">
+                <h3>Thank you for your feedback!</h3> <span>Thanks for your valuable information. It helps us to
+                    improve our services!</span>
+            </div>
+            <div style="overflow:auto;" id="nextprevious">
+                <div style="float:right;">
+                    <button type="button" id="prevBtn" onclick="nextPrev(-1)"><i
+                            class="fa fa-angle-double-left"></i></button>
+                    <button type="button" id="nextBtn" onclick="nextPrev(1)"><i
+                            class="fa fa-angle-double-right"></i></button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <script type='text/javascript'
+        src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js'></script>
+    <script type='text/javascript' src='index.js'></script>
+    <script type='text/javascript'>var myLink = document.querySelector('a[href="#"]');
+        myLink.addEventListener('click', function (e) {
+            e.preventDefault();
+        });
+    </script>
+</body>
+
+</html>
